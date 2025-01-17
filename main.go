@@ -44,12 +44,12 @@ func main() {
 
 	sans := flag.Args()
 	if len(sans) == 0 {
-		log.Fatal("at least one SAN must be provided")
+		log.Fatal("failed: at least one SAN must be provided")
 	}
 
 	outPath, err := filepath.Abs(outPath)
 	if err != nil {
-		log.Fatal("failed to resolve outpath", err)
+		log.Fatal("failed to resolve outpath: ", err)
 	}
 
 	log.Println("Params:")
@@ -60,20 +60,20 @@ func main() {
 
 	// Create the output directory
 	if err := os.MkdirAll(outPath, 0755); err != nil {
-		log.Fatal("failed to create output directory", err)
+		log.Fatal("failed to create output directory: ", err)
 	}
 
 	log.Println("Creating CA...")
 	err = createCA(outPath, sans, isUsingNameConstraints)
 	if err != nil {
-		log.Fatal("failed to create CA", err)
+		log.Fatal("failed to create CA: ", err)
 	}
 	log.Println()
 
 	log.Println("Creating server certificate...")
 	err = createServerCert(outPath, sans)
 	if err != nil {
-		log.Fatal("failed to create server certificate", err)
+		log.Fatal("failed to create server certificate: ", err)
 	}
 	log.Println()
 
