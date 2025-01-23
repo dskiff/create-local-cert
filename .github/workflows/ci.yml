@@ -2,6 +2,9 @@ name: ci
 
 on: [push]
 
+permissions:
+  contents: read
+
 jobs:
   ci:
     name: CI
@@ -9,8 +12,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
-        with:
-          fetch-depth: 0
 
       - name: Build
         run: CGO_ENABLED=0 go build -ldflags "-X main.build_version=test" -v .
