@@ -2,8 +2,8 @@
   "lockfile_version": "1",
   "packages": {
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
-      "last_modified": "2026-02-16T02:09:13Z",
-      "resolved": "github:NixOS/nixpkgs/d1c15b7d5806069da59e819999d70e1cec0760bf?lastModified=1771207753&narHash=sha256-b9uG8yN50DRQ6A7JdZBfzq718ryYrlmGgqkRm9OOwCE%3D"
+      "last_modified": "2026-03-14T16:50:54Z",
+      "resolved": "github:NixOS/nixpkgs/e80236013dc8b77aa49ca90e7a12d86f5d8d64c9?lastModified=1773507054&narHash=sha256-Q8U5VXgrcxmCxPtCCJCIZkcAX3FCZwGh1GNVIXxMND0%3D"
     },
     "go@1.26.1": {
       "last_modified": "2026-03-10T02:35:18Z",
@@ -54,8 +54,8 @@
       }
     },
     "goreleaser@2.13.3": {
-      "last_modified": "2026-01-23T17:20:52Z",
-      "resolved": "github:NixOS/nixpkgs/a1bab9e494f5f4939442a57a58d0449a109593fe#goreleaser",
+      "last_modified": "2026-02-23T15:40:43Z",
+      "resolved": "github:NixOS/nixpkgs/80d901ec0377e19ac3f7bb8c035201e2e098cc97#goreleaser",
       "source": "devbox-search",
       "version": "2.13.3",
       "systems": {
@@ -63,41 +63,41 @@
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/04l59s6yaxfn4mx6m0wcvkk4skzawd9y-goreleaser-2.13.3",
+              "path": "/nix/store/hjkjsjcjvmi8cw5lwz60954l23jpz1s4-goreleaser-2.13.3",
               "default": true
             }
           ],
-          "store_path": "/nix/store/04l59s6yaxfn4mx6m0wcvkk4skzawd9y-goreleaser-2.13.3"
+          "store_path": "/nix/store/hjkjsjcjvmi8cw5lwz60954l23jpz1s4-goreleaser-2.13.3"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/4b8y96z5wsn04glwhqy9nl4jj2x12ic0-goreleaser-2.13.3",
+              "path": "/nix/store/h4mfplvbfw8mvdwjqkc6db5i839zv2nd-goreleaser-2.13.3",
               "default": true
             }
           ],
-          "store_path": "/nix/store/4b8y96z5wsn04glwhqy9nl4jj2x12ic0-goreleaser-2.13.3"
+          "store_path": "/nix/store/h4mfplvbfw8mvdwjqkc6db5i839zv2nd-goreleaser-2.13.3"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/f0x8i0j9bqmif4jx79z28kxqz8ak694h-goreleaser-2.13.3",
+              "path": "/nix/store/axrk518ycwgnqwqljmaf67isndcf506j-goreleaser-2.13.3",
               "default": true
             }
           ],
-          "store_path": "/nix/store/f0x8i0j9bqmif4jx79z28kxqz8ak694h-goreleaser-2.13.3"
+          "store_path": "/nix/store/axrk518ycwgnqwqljmaf67isndcf506j-goreleaser-2.13.3"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/i4ilqzqm4qagpc0wvhi99byx714cm5bb-goreleaser-2.13.3",
+              "path": "/nix/store/naggjmmkqzl3j3f463jzc258844003w4-goreleaser-2.13.3",
               "default": true
             }
           ],
-          "store_path": "/nix/store/i4ilqzqm4qagpc0wvhi99byx714cm5bb-goreleaser-2.13.3"
+          "store_path": "/nix/store/naggjmmkqzl3j3f463jzc258844003w4-goreleaser-2.13.3"
         }
       }
     }
