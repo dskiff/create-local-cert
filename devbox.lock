@@ -43,41 +43,41 @@
         }
       }
     },
-    "goreleaser@2.17.1": {
-      "last_modified": "2026-08-27T07:16:00Z",
-      "resolved": "github:NixOS/nixpkgs/c27cdad491a991b11ed731760aa2ef8db0cb0410#goreleaser",
+    "goreleaser@2.20.1": {
+      "last_modified": "2026-11-14T08:26:23Z",
+      "resolved": "github:NixOS/nixpkgs/5d2b81a7a3be3e2f832879028e4d60abbf58e9a0#goreleaser",
       "source": "devbox-search",
-      "version": "2.17.1",
+      "version": "2.20.1",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/brivs7pzf0y50f9k6ma06336smgx85f2-goreleaser-2.17.1",
+              "path": "/nix/store/hc56zhlw7f5hw55nadr187b0na1f38al-goreleaser-2.20.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/brivs7pzf0y50f9k6ma06336smgx85f2-goreleaser-2.17.1"
+          "store_path": "/nix/store/hc56zhlw7f5hw55nadr187b0na1f38al-goreleaser-2.20.1"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/b7wgnz8kxzaglnxwrixch6hxy0zbl0nf-goreleaser-2.17.1",
+              "path": "/nix/store/0aamj7fxx2wmicjwl4yachnn1vqbk0f0-goreleaser-2.20.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/b7wgnz8kxzaglnxwrixch6hxy0zbl0nf-goreleaser-2.17.1"
+          "store_path": "/nix/store/0aamj7fxx2wmicjwl4yachnn1vqbk0f0-goreleaser-2.20.1"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/452hvj253c9fvz35n4j8lal7s46l8i04-goreleaser-2.17.1",
+              "path": "/nix/store/7dg6943vz3l68q02pv3frm7bnx9505pa-goreleaser-2.20.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/452hvj253c9fvz35n4j8lal7s46l8i04-goreleaser-2.17.1"
+          "store_path": "/nix/store/7dg6943vz3l68q02pv3frm7bnx9505pa-goreleaser-2.20.1"
         }
       }
     }
